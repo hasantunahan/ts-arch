@@ -1,8 +1,8 @@
 import { useState } from 'react';
-import api from '../api/api';
-import { API_PATH } from '../api/api_path';
-import ResponseModel from '../api/res/response_model';
+import { API_PATH } from '../api/APIPath';
+import ResponseModel from '../api/res/ResponseModel';
 import User from '../api/model/user';
+import api from '../api/api';
 
 const useUser = () => {
     const [loading, setLoading] = useState<boolean>(false)

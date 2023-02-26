@@ -1,4 +1,4 @@
-import { BASE_URL } from "./api_path";
+import { BASE_URL } from "./APIPath";
 import axios from 'axios'
 
 async function handleAxiosError(err: any) {

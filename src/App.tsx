@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import UserDetails from './page/user_details';
+import UserDetails from './page/UserDetails';
 
 function App() {
   return (
