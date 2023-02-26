@@ -1,15 +1,13 @@
-import { useEffect } from "react";
-import useUser from "../hooks/useUser";
+import { useCallback, useEffect } from "react";
+import useUser from "../hooks/user/useUser";
 
-const UserDetails = (props: { id: string }) => {
-  const callUseUser = useUser();
+function UserDetails(props: { id: string }) {
+  const { user, loading } = useUser("2");
 
-  useEffect(() => {
-    callUseUser.getUserById(props.id);
-  }, [])
+
 
   return (
-    callUseUser.loading === false ?
+    loading === false ?
       <div>
         was finished
       </div> :
