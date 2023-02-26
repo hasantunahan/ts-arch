@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import useUser from "../hooks/UseUser";
+import useUser from "../hooks/useUser";
 
 const UserDetails = (props: { id: string }) => {
   const callUseUser = useUser();
