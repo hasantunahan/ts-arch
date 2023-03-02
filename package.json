@@ -20,10 +20,10 @@
   "scripts": {
     "start": "react-scripts start",
     "eject": "react-scripts eject",
-    "start:dev": "env-cmd -f .env.dev react-scripts start",
-    "start:prod": "env-cmd -f .env.prod react-scripts start",
-    "dev": "env-cmd -f .env.dev react-scripts build",
-    "prod": "env-cmd -f .env.prod react-scripts build"
+    "start:dev": "env-cmd -f environment/.env.dev react-scripts start",
+    "start:prod": "env-cmd -f environment/.env.prod react-scripts start",
+    "dev": "env-cmd -f environment/.env.dev react-scripts build",
+    "prod": "env-cmd -f environment/.env.prod react-scripts build"
   },
   "eslintConfig": {
     "extends": [

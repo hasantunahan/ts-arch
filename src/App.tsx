@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import './App.css';
-import UserDetails from './page/UserDetails';
+import UserDetails from './page/_features/user_details/UserDetails';
 
 function App() {
 

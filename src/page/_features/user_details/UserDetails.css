@@ -1,0 +1,13 @@
+.user_name{
+    font-weight: bold;
+    font-size: 20px;
+}
+.combine_image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.user_avatar {
+    width: 50px;
+    height: 100px;
+}
